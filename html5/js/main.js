@@ -80,17 +80,18 @@ function onClick(Event) {
 	{
 	    if(pos.x==enemysmgr.enemys[i].pos.x && pos.y==enemysmgr.enemys[i].pos.y)
 	    {
-	        alert("Fight for Money!");
-			iScore=0;
-			inFire=true;
-			ws.send("pt" + ":" + player_mgr.players[0].names + ":-5");
-			document.getElementById("map").style.display = "none";
-			document.getElementById("players").style.display = "none";
-			document.getElementById("enemys").style.display = "none";
-			document.getElementById("fire").style.display = "block";
-			document.getElementById("debug_canvas").width = "50";
-			document.getElementById("debug_canvas").height = "50";
-	        break;
+			window.open("superMario/game/step8.html");
+//	        alert("Fight for Money!");
+//			iScore=0;
+//			inFire=true;
+//			ws.send("pt" + ":" + player_mgr.players[0].names + ":-5");
+//			document.getElementById("map").style.display = "none";
+//			document.getElementById("players").style.display = "none";
+//			document.getElementById("enemys").style.display = "none";
+//			document.getElementById("fire").style.display = "block";
+//			document.getElementById("debug_canvas").width = "50";
+//			document.getElementById("debug_canvas").height = "50";
+//	        break;
 	    }
 	}
 }
